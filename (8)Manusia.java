@@ -40,3 +40,31 @@ this.menikah = menikah;
 public double getTunjangan(){
 if (getMenikah() == true && getJenisKelamin()
 == true){
+  return 25;
+} else if (getMenikah() == false &&
+getMenikah() == true){
+return 20;
+} else {
+return 15;
+}
+}
+public double getPendapatan(){
+return getTunjangan();
+}
+public void getTotalManusia(){
+System.out.println(jumlah);
+}
+public String toString(){
+jumlah++;
+String pattern = "##.##";
+DecimalFormat decimalFormat = new
+DecimalFormat(pattern);
+return
+"\nNama : " + getNama()+
+"\nNIK : "+ getNIK()+
+"\nJenis Kelamin : "+
+(getJenisKelamin()?"Laki-laki" : "Perempuan") +
+"\nPendapatan : "+
+getPendapatan() + "$" + "\n" ;
+}
+}
