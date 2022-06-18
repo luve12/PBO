@@ -71,7 +71,6 @@ return
 "\nNIM : "+ getNIM() +
 "\nIPK : "+ getIPK() +
 "\nStatus : "+ getStatus() +
-"\nPendapatan : "+ getBeasiswa() +
-"$" +"\n” ;
+"\nPendapatan : "+ getBeasiswa() + "$" +"\n” ;
 }
 }
