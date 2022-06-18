@@ -1,5 +1,7 @@
 package Inheritance;
+
 import java.text.DecimalFormat;
+
 public class Manajer extends Pekerja{
 public int lamaKerja;
 static int jumlah3 = 0;
@@ -39,10 +41,8 @@ return
 getGajii() + 15) + "$" +
 "\nBonus : "+ getBonuss() +
 bonusManajer()+ "$" +
-"\nGaji : "+ getGajii()+
-"$" +
+"\nGaji : "+ getGajii()+ "$" +
 "\nStatus : "+ getStatus() +
-"\nLama Kerja : "+
-getLamaKerja()+ " hari" + "\n" ;
+"\nLama Kerja : "+ getLamaKerja()+ " hari" + "\n" ;
 }
 }
