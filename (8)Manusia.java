@@ -1,5 +1,7 @@
 package Inheritance;
+
 import java.text.DecimalFormat;
+
 public class Manusia {
 private String nama;
 private String NIK;
@@ -64,7 +66,6 @@ return
 "\nNIK : "+ getNIK()+
 "\nJenis Kelamin : "+
 (getJenisKelamin()?"Laki-laki" : "Perempuan") +
-"\nPendapatan : "+
-getPendapatan() + "$" + "\n" ;
+"\nPendapatan : "+ getPendapatan() + "$" + "\n" ;
 }
 }
