@@ -1,4 +1,5 @@
 package Inheritance;
+
 import java.util.ArrayList;
 public class Main {
 public static void main(String[] args) {
@@ -75,12 +76,10 @@ output3.add(mnj1);
 output3.add(mnj2);
 output3.add(mnj3);
 System.out.println();
-System.out.println("=========== DAFTAR MANAJER
-==========");
+System.out.println("=========== DAFTAR MANAJER ==========");
 for(int i=0;i<output3.size();i++){
 System.out.println(output3.get(i).toString());
 }
-System.out.println("===================================
-==");
+System.out.println("=====================================");
 }
 }
