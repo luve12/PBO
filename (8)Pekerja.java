@@ -1,5 +1,7 @@
 package Inheritance;
+
 import java.text.DecimalFormat;
+
 public class Pekerja extends Manusia{
 private double gaji;
 private double bonus;
@@ -130,15 +132,10 @@ DecimalFormat(pattern);
 return
 "\nNama : " + getNama()+
 "\nNIK : "+ getNIK()+
-"\nJenis Kelamin : "+
-(getJenisKelamin()?"Laki-laki" : "Perempuan") +
-"\nPendapatan : "+
-(getPendapatan() + getGajii() + getBonuss()) + "$" +
-"\nBonus : "+ getBonuss()+
-"$" +
-"\nGaji : "+ getGajii()+
-"$" +
-"\nStatus : "+ getStatus()
-+"\n” ;
+"\nJenis Kelamin : "+(getJenisKelamin()?"Laki-laki" : "Perempuan") +
+"\nPendapatan : "+(getPendapatan() + getGajii() + getBonuss()) + "$" +
+"\nBonus : "+ getBonuss()+"$" +
+"\nGaji : "+ getGajii()+ "$" +
+"\nStatus : "+ getStatus()+"\n” ;
 }
 }
